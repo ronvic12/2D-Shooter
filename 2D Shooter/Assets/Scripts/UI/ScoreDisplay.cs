@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-
+using TMPro;
 /// <summary>
 /// This class inherits for the UIelement class and handles updating the score display
 /// </summary>
@@ -10,7 +10,7 @@ public class ScoreDisplay : UIelement
 {
     [Tooltip("The text UI to use for display")]
     public Text displayText = null;
-
+    
     /// <summary>
     /// Description:
     /// Updates the score display

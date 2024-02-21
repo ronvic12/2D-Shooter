@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Linq;
 using Unity.Collections;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using UnityEngine.UIElements;
 
@@ -62,6 +63,8 @@ public class GameManager : MonoBehaviour
 
     //The number of enemies observed by the game manager in this scene at start up"
     private int numberOfEnemiesFoundAtStart;
+
+
 
     /// <summary>
     /// Description:
@@ -160,6 +163,8 @@ public class GameManager : MonoBehaviour
 
         if (gameIsWinnable)
         {
+            // make adjustments where if the time run out, lets say 10 minutes, but enemies are a bit harder. 
+            
             if (numberOfInfiniteSpawners > 0)
             {
                 Debug.Log("There are " + numberOfInfiniteSpawners + " infinite spawners " + " so the level will always be winnable, "

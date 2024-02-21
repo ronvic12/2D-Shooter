@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
 using UnityEngine;
-
+using UnityEngine.UI;
 /// <summary>
 /// This class handles the health state of a game object.
 /// 
@@ -33,6 +33,9 @@ public class Health : MonoBehaviour
     public int currentLives = 3;
     [Tooltip("The maximum number of lives this health can have")]
     public int maximumLives = 5;
+
+    [Tooltip("Images of the lives")]
+    public Image[] lives;
 
     /// <summary>
     /// Description:

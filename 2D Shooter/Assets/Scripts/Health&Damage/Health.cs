@@ -61,6 +61,16 @@ public class Health : MonoBehaviour
     void Update()
     {
         InvincibilityCheck();
+
+        for(int i = 0; i < lives.Length; i++)
+        {
+            if (i < currentLives){   
+            } else
+            {
+                lives[i].color = Color.black;
+            }
+                
+        }
     }
 
     // The specific game time when the health can be damged again
@@ -139,6 +149,8 @@ public class Health : MonoBehaviour
             timeToBecomeDamagableAgain = Time.time + invincibilityTime;
             isInvincableFromDamage = true;
             currentHealth -= damageAmount;
+            
+         
             CheckDeath();
         }
     }
@@ -224,6 +236,7 @@ public class Health : MonoBehaviour
     /// </summary>
     void HandleDeathWithLives()
     {
+           
         currentLives -= 1;
         if (currentLives > 0)
         {

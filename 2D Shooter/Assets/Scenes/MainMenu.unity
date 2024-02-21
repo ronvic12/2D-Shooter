@@ -397,12 +397,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3936081892655332172, guid: 395330b6cfb66f246a4c7682cf797c5e, type: 3}
       propertyPath: m_Text
-      value: Galaxy Rangers
+      value: Earth Defender
       objectReference: {fileID: 0}
     - target: {fileID: 3936081894354360884, guid: 395330b6cfb66f246a4c7682cf797c5e, type: 3}
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 4205403404383778420, guid: 7d9d31dea0a387948869157a6d1ded61, type: 3}
+    - target: {fileID: 3936081894393520865, guid: 395330b6cfb66f246a4c7682cf797c5e, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3936081894486422178, guid: 395330b6cfb66f246a4c7682cf797c5e, type: 3}
       propertyPath: m_IsActive
       value: 0

@@ -1,0 +1,141 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &5800764756278715110
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 8022954021460962557, guid: 91411278b0dfa9a468f417268eba15a3, type: 3}
+      propertyPath: currentHealth
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 8022954021460962557, guid: 91411278b0dfa9a468f417268eba15a3, type: 3}
+      propertyPath: defaultHealth
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 8022954021460962557, guid: 91411278b0dfa9a468f417268eba15a3, type: 3}
+      propertyPath: maximumHealth
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 8282131552140209218, guid: 91411278b0dfa9a468f417268eba15a3, type: 3}
+      propertyPath: fireRate
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8282131552140209218, guid: 91411278b0dfa9a468f417268eba15a3, type: 3}
+      propertyPath: projectilePrefab
+      value: 
+      objectReference: {fileID: 4641165794769155162, guid: 19ca1195e585ca348bb386c98ddbab9a, type: 3}
+    - target: {fileID: 8282131552140209218, guid: 91411278b0dfa9a468f417268eba15a3, type: 3}
+      propertyPath: projectileSpread
+      value: 500
+      objectReference: {fileID: 0}
+    - target: {fileID: 8282131552140209221, guid: 91411278b0dfa9a468f417268eba15a3, type: 3}
+      propertyPath: m_Name
+      value: GunTwo(MiniBoss)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8282131552441171986, guid: 91411278b0dfa9a468f417268eba15a3, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.8225
+      objectReference: {fileID: 0}
+    - target: {fileID: 8282131552441171986, guid: 91411278b0dfa9a468f417268eba15a3, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2.3693
+      objectReference: {fileID: 0}
+    - target: {fileID: 8282131552441171986, guid: 91411278b0dfa9a468f417268eba15a3, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 14.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8282131552441171986, guid: 91411278b0dfa9a468f417268eba15a3, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.8688
+      objectReference: {fileID: 0}
+    - target: {fileID: 8282131552441171986, guid: 91411278b0dfa9a468f417268eba15a3, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8282131552441171986, guid: 91411278b0dfa9a468f417268eba15a3, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8282131552441171986, guid: 91411278b0dfa9a468f417268eba15a3, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8282131552441171986, guid: 91411278b0dfa9a468f417268eba15a3, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8282131552441171986, guid: 91411278b0dfa9a468f417268eba15a3, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8282131552441171986, guid: 91411278b0dfa9a468f417268eba15a3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8282131552441171986, guid: 91411278b0dfa9a468f417268eba15a3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8282131552441171986, guid: 91411278b0dfa9a468f417268eba15a3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8282131552441171987, guid: 91411278b0dfa9a468f417268eba15a3, type: 3}
+      propertyPath: guns.Array.data[0]
+      value: 
+      objectReference: {fileID: 2481621982984534476}
+    - target: {fileID: 8282131552441171987, guid: 91411278b0dfa9a468f417268eba15a3, type: 3}
+      propertyPath: guns.Array.data[1]
+      value: 
+      objectReference: {fileID: 2481621984682053284}
+    - target: {fileID: 8282131552441171991, guid: 91411278b0dfa9a468f417268eba15a3, type: 3}
+      propertyPath: m_Name
+      value: DiagonalShooter(miniboss) Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 8282131553695226666, guid: 91411278b0dfa9a468f417268eba15a3, type: 3}
+      propertyPath: fireRate
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8282131553695226666, guid: 91411278b0dfa9a468f417268eba15a3, type: 3}
+      propertyPath: projectilePrefab
+      value: 
+      objectReference: {fileID: 4641165794769155162, guid: 19ca1195e585ca348bb386c98ddbab9a, type: 3}
+    - target: {fileID: 8282131553695226666, guid: 91411278b0dfa9a468f417268eba15a3, type: 3}
+      propertyPath: projectileSpread
+      value: 500
+      objectReference: {fileID: 0}
+    - target: {fileID: 8282131553695226669, guid: 91411278b0dfa9a468f417268eba15a3, type: 3}
+      propertyPath: m_Name
+      value: GunOne(MiniBoss)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 91411278b0dfa9a468f417268eba15a3, type: 3}
+--- !u!114 &2481621982984534476 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8282131553695226666, guid: 91411278b0dfa9a468f417268eba15a3, type: 3}
+  m_PrefabInstance: {fileID: 5800764756278715110}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f75388997f8d4264a86b7441dc9ea74e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2481621984682053284 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8282131552140209218, guid: 91411278b0dfa9a468f417268eba15a3, type: 3}
+  m_PrefabInstance: {fileID: 5800764756278715110}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f75388997f8d4264a86b7441dc9ea74e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

@@ -7,6 +7,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using UnityEngine.UIElements;
+using System;
 
 /// <summary>
 /// Class which manages the game
@@ -159,11 +160,12 @@ public class GameManager : MonoBehaviour
                 enemiesFromSpawners += enemySpawner.maxSpawn;
             }
         }
+        
         numberOfEnemiesFoundAtStart = enemiesFromSpawners + enemiesFromStatic;
 
         if (gameIsWinnable)
         {
-            // make adjustments where if the time run out, lets say 10 minutes, but enemies are a bit harder. 
+            
             
             if (numberOfInfiniteSpawners > 0)
             {
@@ -194,10 +196,17 @@ public class GameManager : MonoBehaviour
     public void IncrementEnemiesDefeated()
     {
         enemiesDefeated++;
+ 
         if (enemiesDefeated >= enemiesToDefeat && gameIsWinnable)
         {
             LevelCleared();
         }
+    }
+
+    public int DecrementEnemiesRemain(){  
+            int enemiesRemain = 0;
+            enemiesRemain = enemiesToDefeat - enemiesDefeated;
+            return enemiesRemain;
     }
 
     /// <summary>

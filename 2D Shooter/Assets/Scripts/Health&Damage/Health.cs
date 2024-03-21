@@ -155,6 +155,10 @@ public class Health : MonoBehaviour
         }
     }
 
+    public int CurrentHealthUI(){
+        return currentHealth;
+    }
+
     /// <summary>
     /// Description:
     /// Applies healing to the health, capped out at the maximum health.
